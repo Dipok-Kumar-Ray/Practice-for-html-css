@@ -12,11 +12,12 @@ img{
 
     flex: 1;
 }
-.vertical-collage{
-    grid-template-columns: repeat(2, 1fr);
-    /* height:calc( (100%-5px)/2 ); */
+.vertical-collage img{
+    border: 2px solid red;
+    /* grid-template-columns: repeat(2, 1fr); */
+    height:calc( (100%-5px)/2 );
     /* display: grid; */
-    grid-template-columns: column;
+    /* grid-template-columns: column; */
 }
 .square-collage{
     display: grid;
